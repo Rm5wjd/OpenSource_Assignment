@@ -7,7 +7,11 @@ num2 = int(input("두 번째 정수를 입력하세요: "))
 # 합과 차 계산
 sum_result = num1 + num2
 difference_result = num1 - num2
+product_result = num1 * num2;
+divide_result = num1 / num2;
 
 # 결과 출력
 print(f"{num1} + {num2} = {sum_result}")
 print(f"{num1} - {num2} = {difference_result}")
+print(f"{num1} * {num2} = {product_result}")
+print(f"{num1} / {num2} = {divide_result}")
